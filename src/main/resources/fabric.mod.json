@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "antiolaf",
+	"version": "${version}",
+	"name": "AntiOlaf",
+	"description": "lul",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://cactusmod.xyz/",
+		"sources": "https://github.com/cactusmod/addon-template"
+	},
+	"environment": "client",
+	"entrypoints": {
+		"cactus": [
+          "xyz.robotig.antiolaf.AntiOlafMain"
+		]
+	},
+	"mixins": [
+      "antiolaf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

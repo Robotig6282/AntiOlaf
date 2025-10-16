@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "xyz.robotig.antiolaf.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "AntiSnowballMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
